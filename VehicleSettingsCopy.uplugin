@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"SemVersion": "1.0.0",
+	"GameVersion": ">=520140",
+	"FriendlyName": "Vehicle Settings Copy",
+	"Description": "Copy a truck's, tractor's or explorer's timetable stops and fuel type, and paste them onto another vehicle. Pasting fills the fuel slot from your inventory.",
+	"Category": "Modding",
+	"CreatedBy": "benvrakas",
+	"CreatedByURL": "https://github.com/benvrakas",
+	"DocsURL": "https://github.com/benvrakas/VehicleSettingsCopy",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/benvrakas/VehicleSettingsCopy/issues",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "VehicleSettingsCopy",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.12.1"
+		}
+	]
+}
